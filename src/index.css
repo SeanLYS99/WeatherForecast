@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --card-color: #20293a;
+  --secondary-color: #20293a;
+  --gray-color: #bdbdbd;
+}
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+p,
+h1,
+h2,
+span {
+  color: white;
+}
