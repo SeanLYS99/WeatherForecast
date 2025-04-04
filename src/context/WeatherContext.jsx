@@ -91,13 +91,14 @@ export const WeatherProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    debouncedFetchSuggestions(location);
+    if (location !== "") {
+      debouncedFetchSuggestions(location);
+    }
     fetchMajorCities();
   }, [location]);
 
   useEffect(() => {
     fetchWeather(selectedLocation);
-    fetchMajorCities();
   }, [selectedLocation, unit]);
 
   return (
