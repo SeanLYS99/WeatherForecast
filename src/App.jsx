@@ -17,9 +17,11 @@ function App() {
         {/* Content Container */}
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
-          <header className="mb-8 flex md:flex-row gap-4 justify-between items-start md:items-center">
+          <header className="mb-8 flex flex-1 md:flex-row gap-4 justify-between items-start md:items-center">
             <SearchBar />
-            <UnitToggle />
+            <div className="flex-1 flex justify-end">
+              <UnitToggle />
+            </div>
           </header>
 
           {/* Mobile/Tablet: Vertical Stack */}
