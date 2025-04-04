@@ -25,13 +25,15 @@ A beautiful, responsive weather application that provides real-time forecasts an
 1. Clone the repository:
 ```bash
 git clone https://github.com/SeanLYS99/WeatherForecast.git
-cd WeatherForecast
+```
 2. Navigate to the Project Directory:
 ```bash
 cd WeatherForecast
+```
 3. Install Dependencies
 ```bash
 npm install
+```
 4. Start the Development Server
 ```bash
 npm run dev
