@@ -42,10 +42,10 @@ npm run dev
 ### API Integration
 The application integrates with the **OpenWeatherMap API** to fetch weather data. Ensure you have a valid API key and configure it in the project.
 
-1. Sign up at [OpenWeatherMap]("https://openweathermap.org/api") to get your API key.
-2. Create a .env file in the root folder.
-3. Add your API key to the .env file:
+1. Sign up at [`OpenWeatherMap`](https://openweathermap.org/api) to get your API key.
+2. Create a `.env` file in the root folder.
+3. Add your API key to the `.env` file:
 ```bash
 VITE_API_KEY=your_api_key_here
 ```
-Replace your_api_key_here with your actual API key.
+Replace **your_api_key_here** with your actual API key.
